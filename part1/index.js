@@ -44,6 +44,7 @@ const App = () => {
       <Total suma={course.parts[0].exercises + course.parts[1].exercises + course.parts[2].exercises} /> 
     </div>
   )
+  
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
